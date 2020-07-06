@@ -7,7 +7,7 @@
                     <div class="fadepage fadepage-enter-done">
                         <h2 class="rs regis-title">Đăng ký    </h2>
 
-                    <form method="POST"  action="{{ route('register') }}">
+                    <form method="POST"  action="http://passport.com/api/auth/signup">
                         @csrf
 
                         <div class="tt-row">
